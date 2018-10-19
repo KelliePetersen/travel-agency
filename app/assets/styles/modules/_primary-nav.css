@@ -49,6 +49,9 @@
       font-size: 1rem;
       background-color: transparent;
 
+      &.current-link {
+        color: $mainOrange;
+      }
     }
   }
 
