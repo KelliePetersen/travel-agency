@@ -1368,9 +1368,9 @@ a {
   }
 
 .modal {
+  background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
   z-index: 99;
-  background-color: rgba(255, 255, 255, 0.95);
   top: 0;
   right: 0;
   bottom: 0;
@@ -1383,14 +1383,23 @@ a {
   transition: all 0.3s ease-out;
 }
 
+.modal__display {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
 @media (min-width: 800px) {
 
-.modal {
-    top: 20%;
-    right: 20%;
-    bottom: 20%;
-    left: 20%
-}
+.modal__display {
+      top: 20%;
+      right: 20%;
+      bottom: 20%;
+      left: 20%
+  }
   }
 
 .modal--visible {
