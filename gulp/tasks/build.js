@@ -7,7 +7,7 @@ const gulp = require('gulp'),
       del = require('del'),
       browserSync = require("browser-sync").create();
 
-gulp.task('previewDist', function() {
+gulp.task('previewBuild', function() {
   browserSync.init({ 
     notify: false, 
     server: { baseDir: "docs" } 

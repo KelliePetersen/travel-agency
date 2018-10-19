@@ -9,6 +9,7 @@ class StickyHeader {
     this.headerTrigger = $(".large-hero__description");
     this.pageSections = $(".page-section");
     this.headerLinks = $(".primary-nav a");
+    this.pageTopLink = $("#page-top-link");
     this.createHeaderWaypoint();
     this.createPageSectionWaypoints();
     this.addSmoothScrolling();
@@ -23,6 +24,7 @@ class StickyHeader {
 
   addSmoothScrolling() {
     this.headerLinks.smoothScroll();
+    this.pageTopLink.smoothScroll();
   }
 
   createHeaderWaypoint() {
