@@ -7,3 +7,5 @@ This is a single page website from a tutorial. Its purpose is to help me better 
 * Gulp and Webpack;
 * Various packages (autoprefixers, mixins, minifying, etc.); and
 * File structure and organisation. 
+
+![alt text](https://github.com/KelliePetersen/travel-agency/screenshot.jpg "Screenshot of webpage")
